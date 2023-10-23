@@ -5,3 +5,4 @@
 ![4](https://github.com/irsitora/project/blob/main/4.png)
 ![5](https://github.com/irsitora/project/blob/main/5.png)
 ![6](https://github.com/irsitora/project/blob/main/6.png)
+![7](https://github.com/irsitora/project/blob/main/7.png)
