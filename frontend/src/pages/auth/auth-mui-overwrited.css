@@ -1,0 +1,70 @@
+:root {
+  --primarydark: #7f6ffa;
+  --primaymain: #ada2ff;
+  --primarylight: #dcd7ff;
+  /* --------------- */
+  --secondarydark: #7ebbfc;
+  --secondarymain: #c0deff;
+  --secondarylight: #d2e7ff;
+  /* ------------ */
+  --thirddark: #f3b5d2;
+  --thirdmain: #ffe5f1;
+  --thirdlight: #ffeff6;
+  /* ------------ */
+  --fourthdark: #f1e0a5;
+  --fourthmain: #fff8e1;
+  --fourthlight: #fffaea;
+  --fourthlighter: #fffaea96;
+  /* -------------- */
+  --btnfontcolorBlack: #000205;
+  --btnfontcolorWhite: #ffffff;
+}
+
+/* Font */
+.css-13vtfjq-MuiFormLabel-root-MuiInputLabel-root {
+  font-size: 1rem !important;
+  padding: 0 !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  background: var(--fourthlighter) !important;
+  color: var(--primarydark) !important;
+  /* height: 0.6rem !important; */
+  font-size: 1.2rem !important;
+}
+
+/* Background of Label */
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  color: red !important;
+}
+
+/* Input border */
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border: 1px solid var(--primarydark) !important;
+}
+
+/* Error Text */
+.css-1wc848c-MuiFormHelperText-root {
+  font-size: 1em !important;
+}
+
+/* Password Field */
+
+.css-16mnyjw-MuiInputBase-root-MuiOutlinedInput-root {
+  background: var(--fourthlighter) !important;
+  color: var(--primarydark) !important;
+  /* height: 0.6rem !important; */
+  font-size: 1.2rem !important;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-top: 0em;
+}
+
+/*  ! Login Image */
+img {
+  width: 20%;
+}

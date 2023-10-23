@@ -1,0 +1,33 @@
+.user-summary {
+    width: 98%;
+
+    .info-summary {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1em;
+    }
+}
+
+.card {
+    border: 1px solid #ccc;
+    // border-bottom: 3px solid var(--light-blue);
+    padding: 5px;
+    margin: 1em;
+    background-color: #f5f6fa;
+}
+
+.card1 {
+    background-color: #b624ff;
+}
+
+.card2 {
+    background-color: #32963d;
+}
+
+.card3 {
+    background-color: #03a5fc;
+}
+
+.card4 {
+    background-color: #c41849;
+}

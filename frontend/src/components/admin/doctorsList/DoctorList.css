@@ -1,0 +1,18 @@
+@media only screen and (min-width: 600px) {
+  /*Tablets [601px -> 1200px]*/
+  .css-vdzw0a-MuiTypography-root {
+    font-size: 2rem !important;
+  }
+
+  .css-14jhxw4-MuiSvgIcon-root {
+    font-size: 2rem !important;
+  }
+  .css-eqp219-MuiTypography-root {
+    font-size: 1.4rem !important;
+  }
+
+  .css-nnrni5-MuiTypography-root{
+   font-size: 1.4rem !important;
+  }
+
+}

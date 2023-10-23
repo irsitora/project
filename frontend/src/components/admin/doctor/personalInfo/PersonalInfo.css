@@ -1,0 +1,17 @@
+.doctor-profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 400px) {
+  .css-167g1rt-MuiGrid-root {
+    flex-direction: column !important;
+  }
+
+
+.css-1idn90j-MuiGrid-root {
+    width: 80%;
+    margin: 0 auto !important;
+  }
+}

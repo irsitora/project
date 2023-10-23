@@ -1,0 +1,141 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #C0DEFF;
+            padding: 2em 1em;
+            font-family: Arial,
+                Helvetica, sans-serif;
+        }
+    
+        .container {
+            background-color: #FFE5F1;
+            padding:
+                1em 0.6em;
+            border-radius: 10px;
+            max-width: 36rem;
+            margin: 0 auto;
+        }
+    
+        .color-primary {
+            color: #ADA2FF;
+        }
+    
+        .color-danger {
+            color: ADA2FF;
+        }
+    
+        .color-success {
+            color: #28a745;
+        }
+    
+        .color-white {
+            color: #fff;
+        }
+    
+        .color-blue {
+            color: #0a1930;
+        }
+    
+        a {
+            font-size: 1.4rem;
+            text-decoration: none;
+        }
+    
+        .btn {
+            font-size: 1.4rem;
+            font-weight: 400;
+            padding: 6px 8px;
+            margin: 0 5px 0 0;
+            border: 1px solid transparent;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    
+        .btn-primary {
+            color:
+                #fff;
+            background: #007bff;
+        }
+    
+        .btn-secondary {
+            color: #fff;
+            border: 1px solid #fff;
+            background: transparent;
+        }
+    
+        .btn-danger {
+            color: #fff;
+            background: orangered;
+        }
+    
+        .btn-success {
+            color: #fff;
+            background: #28a745;
+        }
+    
+        .flex-center {
+            display: flex;
+            justify-content: center;
+            align-items:
+                center;
+        }
+    
+        .logo {
+            padding: 1em 0.6em;
+            background-color: #ADA2FF;
+            border-radius: 12px;
+        }
+    
+        .my {
+            margin:
+                2rem 0;
+        }
+    </style>
+</head>
+{{!-- --------------------------------------- --}}
+{{!-- <body>
+    <div class="container">
+        <div class="logo flex-center">
+            <h2 class="color-white">AUTH:Z</h2>
+        </div>
+        <h2>Hello <span class="color-danger">{{name}}</span></h2>
+        <p>Plese use the 6 digit code to login</p>
+        <p>This link is valid for 1hr</p>
+
+        <h3 class="{color-danger my}">Login Code: {{link}}</h3>
+        <p>If you did not initiate this login, please reset your password</p>
+
+        <div class="my">
+            <p>Regards...</p>
+            <p><b class="color-danger">AUTH:Z</b> Team</p>
+        </div>
+    </div>
+</body> --}}
+{{!-- --------------------------------------- --}}
+
+<body>
+    <div class="container">
+        <div class="logo flex-center">
+            <h2 class="color-white">Вита Здоровье</h2>
+        </div>
+        <h2>Здравствуйте <span class="color-danger">{{name}}</span></h2>
+        <p>Пожалуйста, используйте 6-значный код для входа в систему.</p>
+        <p>Данный код действителен в течение 1 часа.</p>
+
+        <h3 class="{color-danger my}">Код для входа: {{link}}</h3>
+        <p>Если вы не инициировали этот вход, пожалуйста, сбросьте свой пароль.</p>
+
+        <div class="my">
+            <p>С уважением</p>
+            <p><b class="color-danger">Команда Вита Здоровье</b></p>
+        </div>
+    </div>
+</body>
+
+</html>

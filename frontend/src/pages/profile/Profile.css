@@ -1,0 +1,15 @@
+/* ! Profile form */
+
+@media (max-width: 520px) {
+
+  .css-i11p16 {
+    max-width: 38rem !important;
+    margin: 0.3rem !important;
+  }
+  .MuiBox-root .css-9lvi0p {
+    align-items: center !important;
+    flex-direction: column !important;
+    padding: 1rem !important;
+    margin: 1rem !important;
+  }
+}
